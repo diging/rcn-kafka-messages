@@ -34,7 +34,7 @@
 
     <properties>
         <org.slf4j-version>1.7.5</org.slf4j-version>
-        <com.fasterxml.jackson.version>2.9.9</com.fasterxml.jackson.version>
+        <com.fasterxml.jackson.version>2.10.0</com.fasterxml.jackson.version>
     </properties>
 
     <dependencies>
