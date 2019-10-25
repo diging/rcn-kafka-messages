@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
-public class KafkaJobMessage {
+public class KafkaJobMessage implements Message {
 
     private String datasetId;
     private String jobId;
